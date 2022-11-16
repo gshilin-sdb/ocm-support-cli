@@ -3,4 +3,5 @@
 package info
 
 // Version of the ocm-support-cli
-const Version = "0.1.0"
+var Version string
+var SemVersion string

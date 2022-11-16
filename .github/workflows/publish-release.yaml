@@ -56,6 +56,7 @@ jobs:
             env = dict(os.environ)
             env["GOOS"] = goos
             env["GOARCH"] = goarch
+            env["SEMVERSION"] = version
 
             # Build the binary:
             args = ["make", "cmds"]
